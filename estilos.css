@@ -305,7 +305,7 @@ color:#fff;
 .contenedor-precio-individual{
 max-width: 350px;
 min-height: 350px;
-padding: 20px;
+padding: 20px 20px;
 margin-bottom: 50px;
 margin: auto;
 }
@@ -326,7 +326,7 @@ font-size: 30px;
     .contenedor-precio-individual{
         max-width: 300px;
         min-height: 300px;
-        padding: 20px;
+        padding: 20px 20px;
         margin-bottom: 50px;
         margin: auto;
         }
