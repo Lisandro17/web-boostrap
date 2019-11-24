@@ -317,6 +317,9 @@ font-size: 30px;
 .contenedor-titulos-precios h2{
     font-size: 30px;
 }
+.contenedor-titulos-portafolio h2{
+    font-size: 25px;
+}
 }
 @media screen and(max-width:450px){
     .contenedor-precio-individual{
