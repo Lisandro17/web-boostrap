@@ -1,0 +1,318 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*NAVBAR*/
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+}
+
+section {
+    padding: 100px 0px;
+}
+
+.navbar .nav-link {
+    color: #000;
+}
+
+.navbar .nav-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/*HEADER*/
+#header {
+    width: 100%;
+    height: 800px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.contenedor-titulos-header {
+padding: 70px 0px 0px 50px ;
+}
+
+.contenedor-titulos-header h1 {
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+.contenedor-titulos-header p {
+    color: #fff;
+    margin: 0px 0px 50px 0px;
+}
+
+.contenedor-titulos-header a {
+    padding: 20px 40px;
+    background: #fff;
+    border-radius: 0;
+    color: #000;
+    border: 0;
+    text-decoration: none;
+
+}
+
+.contenedor-titulos-header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.contenedor-titulos-header i {
+    font-size: 25px;
+}
+
+/*PORTAFOLIO*/
+.contenedor-portafolio {
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor-portafolio img {
+    transition: all 1s ease;
+    border-radius: 3px;
+}
+
+.contenedor-portafolio:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.contenedor-titulos-portafolio {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px 50px;
+
+}
+
+.contenedor-titulos-portafolio p {
+    color: #000;
+    margin: 20px 0px;
+}
+
+#portafolio img {
+    width: 100%;
+}
+
+.contenedor-portafolio {
+    position: relative;
+}
+
+.contenedor-textos-portafolio {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    color: #fff;
+    z-index: 10000;
+
+
+}
+
+.contenedor-textos-portafolio h2 {
+    font-size: 60px;
+}
+
+.contenedor-textos-portafolio p {
+    font-size: 25px;
+}
+
+.contenedor-textos-footer {
+   margin: auto;
+}
+
+/*NOSOTROS*/
+#nosotros {
+    background: rgba(204, 204, 204, 0.068);
+}
+
+.contenedor-titulos-nosotros {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.contenedor-titulos-nosotros h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+/*MIEMBROS*/
+
+.contenedor-img-miembro {
+    position: relative;
+}
+
+.contenedor-img-miembro img {
+    width: 100%;
+    height: auto;
+
+}
+
+.contenedor-textos-nosotros {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    color: #fff;
+    z-index: 10000000;
+}
+
+.contenedor-textos-nosotros h3 {
+    font-size: 27px;
+    margin: 0px;
+}
+
+.contenedor-textos-nosotros li {
+    padding: 0px 10px;
+
+}
+/*PRECIOS*/
+.contenedor-titulos-precios{
+    max-width: 800px;
+    margin: auto;
+    padding: 0px 0px 80px;
+}
+.contenedor-titulos-precios h2{
+  font-size: 50px;  
+  margin-bottom:20px;
+}
+.contenedor-precio-individual{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 2px solid #000;
+}
+.cpi-2{
+    background: rgba(0, 0, 0, 0.87) !important;
+    color:#fff !important;
+}
+.btn-linea-blanca{
+ border: 1px solid #fff;   
+}
+
+.contenedor-precio-individual a{
+    margin: 70px 0px 0px 0px;
+}
+.contenedor-precio-individual  ul{
+margin: 25px;
+}
+.contenedor-precio-individual .btn{
+background: #000;
+color:#fff;
+padding: 15px;
+}
+.precio-num{
+    font-size: 60px;
+}
+/*TESTIMONIO*/
+.contenedor-titulos-testimonios {
+    max-width: 700px;
+    margin: auto;
+    padding: 60px 0px;
+}
+.contenedor-titulos-testimonios h2{
+   font-size: 50px; 
+}
+.contenedor-textos-carusel{
+    max-width: 700px;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.055);
+    padding: 50px;
+}
+.contenedor-textos-carusel i{
+   color: #FCB00E; 
+}
+.contenedor-textos-carusel img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenedor-nombre-carusel h5{
+    margin: 0;
+    padding: 10px;
+}
+
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    color:#fff;
+   
+}
+.carousel-control-next-icon{
+    color:#fff;
+}
+
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    color:#fff;
+   
+}
+.carousel-control-prev-icon{
+    color:#fff;
+}
+
+/*CONTACTO*/
+#contacto{
+    padding: 50px;
+}
+#contacto input , .btn{
+height: 60px;
+margin: 10px; 
+border-radius: 0;
+}
+#contacto a{
+  line-height: 3;  
+}
+/*FOOTER*/
+#footer{
+width: 100%;
+background:#1a1a1a;
+padding: 80px;
+text-align: center;
+color:#fff;
+}
+#footer ul li{
+    padding: 0px 20px;
+    margin: 10px 0;
+    color:#fff;
+}
+#footer ul li a{
+    color:#fff;
+    margin: 20px 0px;
+}
+/*@media query*/
+@media screen and (max-width:576px){
+    .contenedor-titulos-header h1{
+        font-size: 35px;
+        text-align: center;
+    }
+.contenedor-nosotros{
+    margin: 10px;
+}
+.contenedor-precio-individual{
+width: 450px;
+height: 450px;
+padding: 20px;
+margin-bottom: 50px;
+}
+}
+@media screen and(max-width:450px){
+    .contenedor-precio-individual{
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 50px;
+        }
+}
