@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -31,15 +36,20 @@ section {
 
 /*HEADER*/
 #header {
+    background-image: url(img/photo-of-man-holding-a-book-927022.jpg);
     width: 100%;
-    height: 800px;
-    background-image: url(img/hero.jpg);
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
    
 
+}
+#header img{
+    width: 100%;
+    height: 100%;
+    
 }
 
 .contenedor-titulos-header {
